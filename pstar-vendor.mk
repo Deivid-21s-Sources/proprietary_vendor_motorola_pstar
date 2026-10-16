@@ -2975,6 +2975,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/pstar/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
     vendor/motorola/pstar/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
     vendor/motorola/pstar/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc \
+    vendor/motorola/pstar/proprietary/vendor/etc/init/vendor.zui.hardware.ifaa@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.zui.hardware.ifaa@1.0-service.rc \
     vendor/motorola/pstar/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/motorola/pstar/proprietary/vendor/etc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st.conf \
     vendor/motorola/pstar/proprietary/vendor/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_mipi_mot_cmd_csot_1080p_dsc_667.xml \
@@ -3133,7 +3134,11 @@ PRODUCT_PACKAGES += \
     libvidhance_stabilizer \
     vendor.goodix.hardware.biometrics.fingerprint@3.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
+    vendor.zui.hardware.ifaa@1.0 \
     vendor_lib_rfsa_adsp_libdsp_streamer_qvrcam_receiver_so \
+    IfaaService \
+    SoterService \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
     android.hardware.biometrics.fingerprint@2.1-service-fpc \
-    fpc_ident
+    fpc_ident \
+    vendor.zui.hardware.ifaa@1.0-service
