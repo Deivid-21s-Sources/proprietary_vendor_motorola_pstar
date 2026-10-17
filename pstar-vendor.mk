@@ -3112,6 +3112,8 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libgoodixhwfingerprint \
     libipebpsstriping \
+    libmmcamera_faceproc \
+    libmmcamera_faceproc2 \
     libmot_afd \
     libmot_chi_desktop_helper \
     libmot_engine_settings \
@@ -3123,7 +3125,10 @@ PRODUCT_PACKAGES += \
     libos \
     libswregistrationalgo \
     libsynx \
+    libthirdparty_zoomtranslator_imp \
     libthreadutils \
+    libtriplecam_image_optical_zoom \
+    libtriplecam_optical_zoom_control \
     libtriplecam_video_optical_zoom \
     libvidhance \
     libvidhance_active_ois \
@@ -3132,6 +3137,7 @@ PRODUCT_PACKAGES += \
     libvidhance_fbc \
     libvidhance_horizon_correction \
     libvidhance_stabilizer \
+    libvidhance_zoom_stabilization \
     vendor.goodix.hardware.biometrics.fingerprint@3.0 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     vendor.zui.hardware.ifaa@1.0 \
